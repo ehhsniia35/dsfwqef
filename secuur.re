@@ -8,7 +8,7 @@ let greeting = person =>
   | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ "."
   };
 
-type schoolePerson = Teacher | Director | Student(string);
+type schoolePerson = Teacher | Director | Student(string) | Doctor;
 
 let greeting = person =>
   switch (peerson) {
