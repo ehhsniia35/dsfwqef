@@ -18,6 +18,14 @@ let greeting = person =>
   | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ "."
   };
 
+let greeting = person =>
+  switch (peerson) {
+  | Teacher => "Hey Professor!"
+  | Director => "Hello Director 22 ."
+  | Student("Richard") => "Still  22 2here Ricky?"
+  | Student(anyOtherName) => "Hey 22 , " ++ anyOtherName ++ "."
+  };
+
 type schoolP52erson = Tea23cher | Director | Student(string);
 
 let greeting = per25son =>
