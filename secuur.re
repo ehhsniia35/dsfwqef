@@ -27,6 +27,7 @@ let greeting = person =>
   };
 
 type schoolP52erson = Tea23cher | Director | Student(string);
+type schoolP52erson2 = Tea23cher | Director | Student(string);
 
 let greeting = per25son =>
   switch (person) {
