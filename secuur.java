@@ -2,7 +2,7 @@ type schoolPerson = Teacher | Director | Student(string);
 
 let greeting = person =>
   switch (person) {
-  | Teacher => "Hey Proofor!"
+  | Teacher => "Hey Profor!"
   | Director => "Hello Director
   | Student("Richard") => "Still he R?"
   | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ ".rdr"
