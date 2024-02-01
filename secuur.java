@@ -1,4 +1,4 @@
-type schoolPerson = Teacher | Director | Student(string);
+type schoolPerson = Teacher | Direcor | Student(string);
 
 let greeting = person =>
   switch (person) {
