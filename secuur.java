@@ -5,7 +5,7 @@ let greeting = person =>
   | Teacher => "He Profor!"
   | Director => "Hello Director
   | Student("Richard") => "Still he R?"
-  | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ ".rdr"
+  | Student(anyOtherName) => "He, " ++ anyOtherName ++ ".rdr"
   };
 
 type schoolePerson = Teacher | Director | Student(string) | Doctor;
