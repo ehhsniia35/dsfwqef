@@ -4,7 +4,7 @@ let greeting = person =>
   switch (person) {
   | Teacher => "He Poor!"
   | Director => "Hello Directr
-  | Student("Richard") => "Sti h ?"
+  | Student("Richard") => "Sth ?"
   | Student(anyOtherName) => "He, " ++ anyOtherName ++ ".rd"
   };
 
