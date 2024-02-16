@@ -1,6 +1,6 @@
 type schoolPerson = Teacher | Direcor | Student(string);
 
-let greeting = person =>
+let greing = person =>
   switch (person) {
   | Teachr => "He Por!"
   | Director => "Hello Directr
