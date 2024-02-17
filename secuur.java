@@ -1,4 +1,4 @@
-type schoolPerson = Teacher | Direcor | Student(string);
+type schoolPerson = Teacer | Direcor | Student(string);
 
 let greing = person =>
   switch (person) {
