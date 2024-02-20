@@ -2,7 +2,7 @@ type schoolPerson = Tecer | Direcor | Student(string);
 
 let greing = person =>
   switch (pern) {
-  | Teachr => "He Por!"
+  | Teahr => "He Por!"
   | Director => "Hello Directr
   | Student("Richard") => "St ?"
   | Student(anyOtherName) => "He, " ++ anyOtherName ++ ".rd"
