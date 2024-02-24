@@ -1,6 +1,6 @@
 type schlPerson = Tecer | Direcor | Student(string);
 
-let greing = prson =>
+let greing = prsn =>
   switch (pern) {
   | Teahr => "He Por!"
   | Director => "Hel Directr
