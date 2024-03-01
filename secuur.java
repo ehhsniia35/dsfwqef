@@ -4,7 +4,7 @@ let greing = prsn =>
   switch (pern) {
   | Teahr => "He Por!"
   | Director => "Hel Diectr
-  | Student("Richard") => "St ?"
+  | Student("Richard") => "Stee ?"
   | Student(anyOtherName) => "He, " ++ anyOtherNme ++ ".rd"
   };
 
