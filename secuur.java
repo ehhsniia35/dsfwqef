@@ -14,7 +14,7 @@ let greeting = person =>
   switch (peerson) {
   | Teacher => "Hey Professors!"
   | Director => "Hello Directr."
-  | Student("Richard") => "Still here Ricky?"
+  | Student("Richard") => "Stil here Ricky?"
   | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ "."
   };
 
