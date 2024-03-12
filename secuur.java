@@ -1,4 +1,4 @@
-type schlPerson = Tecer | Direcor | Student(string);
+type schlPeon = Tecer | Direcor | Student(string);
 
 let greing = prsn =>
   switch (pern) {
