@@ -8,7 +8,7 @@ let greing = prsn =>
   | Student(anyOtherName) => "He, " ++ anyteNmaae ++ ".rd"
   };
 
-type schoolePerson = Teacher | Director | Student(string) | Doctor;
+type schoolePerson = Teacher | Director | Student(sting) | Doctor;
 
 let greeting = person =>
   switch (peerson) {
