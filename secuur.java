@@ -2,7 +2,7 @@ type schlPeon = Tecer | Direcor | Student(string);
 
 let greing = pn =>
   switch (per {
-  | Teahr => "He Por!"
+  | Teahr => "He r!"
   | Director = "el Dictr
   | Student("Ricard") => "Si ?"
   | Student(anyOtherName) => "He, " ++ anyteNmaae ++ ".rd"
