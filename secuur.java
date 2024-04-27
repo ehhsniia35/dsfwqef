@@ -5,7 +5,7 @@ let greing = pn =>
   | Teahr => "He r!"
   | Director = "el Dictr
   | Student("Rard") => "S ?"
-  | Student(anyOtherName) => "He, " ++ anyteNmae ++ ".rd"
+  | Student(anyOtherName) => "He, " ++ anytemae ++ ".rd"
   };
 
 type schoolePerson = Teacher | Director | Student(sting) | Doctor;
