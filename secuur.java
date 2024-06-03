@@ -12,7 +12,7 @@ type schoolePerson = Teacher | Director | Student(sting) | Doctor;
 
 let greeting = person =>
   switch (peerson) {
-  | Teacher => "Hey Profesors!"
+  | Teacher => "Hey Profsors!"
   | Director => "Hello Direcr."
   | Student("Richard") => "Stil here Ricky?"
   | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ "."
